@@ -1,0 +1,57 @@
+GET http://localhost:8080/cats
+
+###
+
+POST http://localhost:8080/cats
+content-type: application/json
+
+{
+    "name": "Felix",
+    "age": 11
+}
+
+###
+
+POST http://localhost:8080/cats
+content-type: application/json
+
+{
+    "name": "Kitty",
+    "age": 11
+}
+
+###
+
+POST http://localhost:8080/cats
+content-type: application/json
+
+{
+    "name": "Mew",
+    "age": 5
+}
+
+###
+
+POST http://localhost:8080/cats
+content-type: application/json
+
+{
+    "name": "Mew",
+    "age": 6
+}
+
+###
+
+GET http://localhost:8080/cats/names
+
+###
+
+GET http://localhost:8080/cats?name=Felix&age=11
+
+###
+
+GET http://localhost:8080/cats?age=11
+
+###
+
+GET http://localhost:8080/cats?name=Mew
